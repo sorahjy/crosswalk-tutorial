@@ -1,6 +1,6 @@
 # 一份简单的CrossWalk使用指南
 
-标签（空格分隔）： android
+标签： android
 
 ---
 
@@ -44,7 +44,7 @@ dependencies {
 }
 
 ```
-### 2.3 在build.greadle中添加productFlavors
+### 2.3 在build.gradle中添加productFlavors
 productFlavors是在gradle中配置多渠道的打包的工具。我们利用productFlavors区分不同的产品（这里是arm和x86），定义不同的逻辑，使构建部分有差异的Android项目更加方便。
 
 ```
@@ -175,14 +175,14 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-## 3 本次的CrossWalk使用指南到底结束
+## 3 本次的CrossWalk使用指南到此结束
 感谢您的观看。
-本次实例的源代码在我的github上，
+本次实例的源代码在我的github上，欢迎follow和star。
 网址为：https://github.com/sorahjy/crosswalk
 
 
-作者 [@sorahjy][1]
-我的github： https://github.com/sorahjy
+作者 [@sorahjy][1]<br />
+我的github： https://github.com/sorahjy <br />
 2018 年 04月 22日
 
 [1]: https://github.com/sorahjy
