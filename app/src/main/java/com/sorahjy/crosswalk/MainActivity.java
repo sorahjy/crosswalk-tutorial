@@ -8,6 +8,7 @@ import org.xwalk.core.XWalkView;
 
 public class MainActivity extends AppCompatActivity {
     private XWalkView xWalkWebView;
+    //这个url就是你想要打开的页面。
     private String url="https://www.sorahjy.com";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
         // turn on debugging
         XWalkPreferences.setValue(XWalkPreferences.REMOTE_DEBUGGING, true);
         xWalkWebView.load(url, null);
-        // load local html file
-        // xWalkWebView.load("localfile.html", null);
     }
 
     @Override
