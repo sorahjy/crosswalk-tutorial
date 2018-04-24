@@ -91,10 +91,14 @@ xmlns:tools="http://schemas.android.com/tools"
 最终我们的androidMainfest.xml文件应该像这样：
 
 ```xml
- <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sorahjy.crosswalk.ttttest">
-
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sorahjy.crosswalk">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-sdk tools:overrideLibrary="org.xwalk.core" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -110,6 +114,7 @@ xmlns:tools="http://schemas.android.com/tools"
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
 
 ```
