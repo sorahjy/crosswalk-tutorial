@@ -180,10 +180,8 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-## 3 本次的CrossWalk使用指南到此结束
-感谢您的观看。
-本次实例的源代码在我的github上，欢迎follow和star。
-网址为：https://github.com/sorahjy/crosswalk
+## 3 结尾
+感谢您的观看。希望能帮到你～
 
 
 作者 [@sorahjy][1]<br />
